@@ -21,7 +21,7 @@ pip install -r requirements.txt
 To run the port scanner, use the following command:
 
 python port-scanner.py [-h] [--timeout TIMEOUT] target start_port end_port
-```bash
+```
 
 ### Arguments
 
