@@ -5,6 +5,20 @@ import argparse
 
 logging.basicConfig(filename='port_scanner.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
+welcome_banner = """
+______          _     _____                                 
+| ___ \        | |   /  ___|                                
+| |_/ /__  _ __| |_  \ `--.  ___ __ _ _ __  _ __   ___ _ __ 
+|  __/ _ \| '__| __|  `--. \/ __/ _` | '_ \| '_ \ / _ \ '__|
+| | | (_) | |  | |_  /\__/ / (_| (_| | | | | | | |  __/ |   
+\_|  \___/|_|   \__| \____/ \___\__,_|_| |_|_| |_|\___|_|   
+                                                            
+
+Created By :- Wathsala Dewmina
+
+"""
+print(welcome_banner)
+
 async def scan_port(ip, port, timeout):
     try:
         conn = asyncio.open_connection(ip, port)
