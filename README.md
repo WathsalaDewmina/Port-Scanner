@@ -18,13 +18,10 @@ To get started with the port scanner, you'll need to install the required depend
 ```bash
 pip install -r requirements.txt
 
-## Usage
-
 To run the port scanner, use the following command:
 
-```bash
 python port-scanner.py [-h] [--timeout TIMEOUT] target start_port end_port
-```
+```bash
 
 ### Arguments
 
@@ -54,4 +51,3 @@ This command will scan the target `example.com` for open ports in the range 1-10
 ## License
 
 This project is licensed under the MIT License.
-```
