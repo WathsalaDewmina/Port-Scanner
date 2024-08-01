@@ -1,10 +1,3 @@
-I apologize for that oversight. Let's ensure the usage part is included correctly in the `README.md` file.
-
-Here’s the revised `README.md` file with the usage part explicitly mentioned:
-
-### `README.md`
-
-```markdown
 # Python Port Scanner
 
 This is a simple Python port scanner script that allows you to scan a target IP address or hostname for open ports within a specified range.
@@ -24,13 +17,6 @@ To get started with the port scanner, you'll need to install the required depend
 
 ```bash
 pip install -r requirements.txt
-```
-
-If you don't have a `requirements.txt` file, here is the command to install the necessary packages:
-
-```bash
-pip install argparse
-```
 
 ## Usage
 
